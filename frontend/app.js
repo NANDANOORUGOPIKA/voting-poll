@@ -1,4 +1,4 @@
-const API = "http://localhost:5000";
+const API = " https://voting-backend-o5z1.onrender.com";
 let optionCount = 2;
 
 function addOption() {
