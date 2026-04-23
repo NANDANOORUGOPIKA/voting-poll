@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Polling App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>✨ PulsePoll</h1>
+        <p class="subtitle">Create polls • Vote instantly • See live results</p>
+
+        <!-- Create Poll -->
+        <div class="card">
+            <h2>Create a Poll</h2>
+
+            <input id="question" placeholder="Enter your question...">
+
+            <div id="options"></div>
+
+            <div class="btn-row">
+                <button onclick="addOption()">+ Add Option</button>
+                <button class="primary" onclick="createPoll()">CreatePoll</button>
+            </div>
+        </div>
+
+        <!-- Polls -->
+        <div id="polls"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
